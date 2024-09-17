@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #A4F7E1;
+	text-align:  center;
+
+}
+
+/* hero section */
+header {
+	background-image: url("img/foz.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #F4F410;
+	text-shadow: 0px 0px 9px black;
+}
+
+header h2 {
+	background: navy;
+	padding: 10px 30px;
+	border-radius: 30px 100px 30px 100px;
+	margin-top: 150px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+header h3 {
+	margin-top: 0px;
+	border-radius: 20px 100px 20px 100px;
+	background: linear-gradient(#10F4CE, #ACF5E1, #E0F9F3);
+	padding: 45px 35px;
+	max-width: 400px;
+
+}
+
+/* main section */
+
+}
+
+.hometown  {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.visit-Iguacu {
+	padding: 32px;
+	display: flex;
+	flex-direction: inline-grid;
+	justify-content: space-evenly;
+	align-items: baseline;
+	color: #1d3557;
+
+}
+
+.visit-title{
+	object-position: center;
+
+}
+.focus {
+	width: 500px;    
+    height: 500px;
+    border-radius: 50%;
+	border: 3px solid #457b9d;
+	transform: scale(1.1);
+	transition: transform 200ms, border 100ms;  
+
+}
+
+.list {
+	padding-left: 0;
+	list-style-position: inside;
+	text-indent: 0;
+	font-size: 24px;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+
+/* contact / card-section */
+
+.contact {
+	padding: 16px;
+}
+
+.card {
+	max-width: 400px;
+	border: 1px solid;
+	margin: 50px auto;
+	display: flex;
+	padding: 32px;
+	background: linear-gradient(135deg, #EE88E0, #a32a4e);
+	border-radius: 90px 10px 90px 10px;
+	box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	align-items: center;
+}
+
+.card-img {
+	width: 100px;
+	border-radius: 10px;
+	margin-right: 16px;
+}
+
+.face {
+	width: 150px;
+	height: 165px;
+	border-radius: 20px;
+}
+
+.card-text {
+	margin-inline-start: auto;
+	width: 200px;
+	color: #1d3557;
+}
+
+.card-text p {
+	font-style: italic;
+}
+
+/* utility */
+.font-24 {
+	font-size: 24px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
